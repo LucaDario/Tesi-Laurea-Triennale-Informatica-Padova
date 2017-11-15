@@ -31,6 +31,8 @@
                                         % NOTA BENE! va accordata con le preferenze dell'editor
 %---nuovi comandi
 \newcommand{\azienda}{XTN – Cognitive Security}
+\newcommand{\url}[2]{\href{#2}{\textcolor{blue}{\texttt{#1}}}}
+\newcommand{\link}[1]{\href{#1}{\textcolor{blue}{\texttt{#1}}}} 
 %**************************************************************
 % Importazione package
 %************************************************************** 
@@ -129,13 +131,14 @@
 \input{capitoli/tecnica-stage.tex}
 \input{capitoli/svolgimento-stage.tex}
 \input{capitoli/resoconto-stage.tex}
+
 %\appendix                               
 %\input{capitoli/capitolo-A}             % Appendice A
 
 %**************************************************************
 % Materiale finale
 %**************************************************************
-%\backmatter
-%\printglossaries
+\backmatter
+\printglossaries
 %\input{inizio-fine/bibliografia}
 \end{document}
