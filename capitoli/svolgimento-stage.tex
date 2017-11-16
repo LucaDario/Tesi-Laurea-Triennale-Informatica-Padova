@@ -9,11 +9,50 @@
 
 %**************************************************************
 \section{Pianificazione}
-Descrizione dell'attività di pianificazione eseguita.
+Prima dell'inizio del progetto di stage, insieme al mio tutor aziendale, abbiamo stilato le attività principali che avrei dovuto svolgere durante il periodo a disposizione. Queste attività sono riportate nella \hyperref[tab:pian]{tabella 2.1}.\\
+Successivamente all' attività di analisi, il mio tutor, ha deciso che avrei dovuto svolgere un colloquio con lui per decidere insieme le tecnologie più promettenti e valide nel contesto di anti frode.\\
+Durante i primi giorni di stage, insieme al mio tutor, abbiamo svolto vari colloqui per determinare pianificare in dettaglio le varie attività, le modalità di scelta in base al loro ambito di sviluppo e le tecnologie consigliate.
 
 \section{Analisi}
+\subsection{Introduzione}
+Nei primi giorni di stage io ed il mio tutor abbiamo deciso i principali punti su cui analizzare le varie tecnologie. Questi sono conseguenti all'ambito di sviluppo dell'azienda e le tecnologie che già adotta l'azienda.\\
+i punti di interesse solo:
+\begin{itemize}
+\item{\textbf{Licenza:}} verificare che tipo di licenza ha il prodotto, se ha una versione gratuita e che tipo limitazioni ha rispetto a quella a pagamento.
+\item{\textbf{Tipo:}} verificare il tipo di tecnologia implementata, se una base di dati a grafo nativa\glsfirstoccur o non nativa\glsfirstoccur.
+\item{\textbf{Modelli disponibili:}} verificare che tipi di modelli\glsfirstoccur offre.
+\item{\textbf{Community:}} verificare l'ampiezza di community del prodotto in analisi, con una community molto sviluppata é possibile ricercare consigli o risoluzioni di determinati problemi nei vari \textit{forum} di riferimento.
+\item{\textbf{Tecnologie sopportate nativamente(di rilievo per l'azienda):}} verificare se la tecnologia mette a disposizione un supporto a tecnologie di riferimento all'azienda quali Java o Spring.
+\item{\textbf{Linguaggio di interrogazione proprietario:}} verificare se la tecnologia in analisi mette a disposizione un linguaggio di interrogazione proprietario e ottimizzato per essa, analizzando la sua espressivitá.
+\item{\textbf{Supporto Tinkerpop\footnote{Tinkerpop: url= \link{http://tinkerpop.apache.org/}}:}} verificare se la tecnologia mette a disposizione il supporto ad Apache tinkerpop, sfruttando quindi un interfaccia comune, permettendo poi un passaggio ad un altra tecnologia che lo supporti a costi nulli.
+\item{\textbf{Clustering\glsfirstoccur:}} verificare se la tecnologia mette a disposizione un sistema di clustering pronto all'uso, che tipo di clustering e se ha la possibilitá di eseguire query distribuite. Infine verificare se questa é disponibile nelle versione gratuita.
+\item{\textbf{Security:}} verificare che sistemi di sicurezza dei dati la tecnologia mette a disposizione e se esiste la possibilità di dividere il database in zone per farle diventare accessibili solo a determinati utenti.\\
 
-Descrizione dell'analisi tecnologica che ho eseguito
+\end{itemize}
+\textbf{Le informazioni necessarie all'analisi le ho riperite in primo luogo dalle documentazioni ufficiali delle case prodruttrici e successivamente dai \textit{forum} quali StackOverflow\footnote{StackOverflow: url= \link{https://stackoverflow.com/}} e Dzone\footnote{Dzone: url= \link{https://dzone.com/}}}
+\subsection{Tecnologie in analisi}
+Le tecnologie le ho scelte in base a quelle più diffuse o più promettenti sulla carta attraverso ricerche su internet.
+
+\subsubsection{Sparksee(DEX)}
+Sparksee\footnote{Sparksee: url= \link{http://www.sparsity-technologies.com/}} è un grafo nativo sviluppato in C++ da Spark Technologies a fine 2008 sotto nome \textbf{DEX}. Successivamente nel 2014 cambia nome in \textbf{Sparksee}.\\
+Sparksee è stato il primo \textit{database} a grafo disponibile per Android e iOS.\\
+Supporta tecnologie rilievo per l'azienda come Java, Maven e viene rilasciato per Linux, MacOs, Windows e per i principali sistemi operativi mobili.
+La casa produttrice dichiara come \textit{use case} possibile il rilevamento di frode bancarie.\\
+Questa tecnologia viene rilasciata solamente in versione con licenza commerciale ed in una accademica con il limite ad un milione di nodi.
+
+\subsubsection{Neo4j}
+Neo4j\footnote{Neo4j: url= \link{https://neo4j.com/}} è la base di dati a grafo nativa più diffusa al mondo, e, anche grazie a questo, ha una \textit{community} molto ampia. E' un \textit{software} sviluppato in Java da Neo Technology nel 2007. E' adottato da multinazionali come Microsoft, AirBnb, IBM, Ebay.\\
+Neo4j ha un linguaggio di interrogazione proprietario, chimato \textbf{Chyper}, molto espressivo e ottimizzato. Supporta le tecnologie di rilievo per l'azienda, compreso Spring Data\footnote{Spring data: url= \link{http://projects.spring.io/spring-data/}}. Neo4j viene rilasciato in versione \textit{community} gratuita con nessuna limitazione di ampiezza della base di dati, senza la possibilita di eseguirlo in modo distibuito al contrario di quella \textit{Enterprise} a pagamento.
+
+\
+
+
+
+
+
+
+
+
 
 \section{Sviluppo del prototipo}
 
