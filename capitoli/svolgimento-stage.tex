@@ -19,13 +19,13 @@ Nei primi giorni di stage io ed il mio tutor abbiamo deciso i principali punti s
 I punti di interesse solo:
 \begin{itemize}
 \item{\textbf{Licenza:}} verificare che tipo di licenza ha il prodotto, se ha una versione gratuita e che tipo limitazioni ha rispetto a quella a pagamento.
-\item{\textbf{Tipo:}} verificare il tipo di tecnologia implementata, se una base di dati a grafo nativa\glsfirstoccur o non nativa\glsfirstoccur.
-\item{\textbf{Modelli disponibili:}} verificare che tipi di modelli\glsfirstoccur offre.
+\item{\textbf{Tipo:}} verificare il tipo di tecnologia implementata, se una base di dati a \gls{grafo nativa}o \gls{non nativa}.
+\item{\textbf{Modelli disponibili:}} verificare che tipi di \gls{modelli} offre.
 \item{\textbf{Community:}} verificare l'ampiezza della \textit{community} del prodotto in analisi, avendola molto sviluppata é possibile ricercare consigli o risoluzioni di determinati problemi nei vari \textit{forum} di riferimento.
 \item{\textbf{Tecnologie sopportate nativamente (di rilievo per l'azienda):}} verificare se la tecnologia mette a disposizione un supporto a tecnologie di riferimento all'azienda quali Java o Spring.
-\item{\textbf{Linguaggio di interrogazione proprietario:}} verificare se la tecnologia in analisi mette a disposizione un linguaggio di interrogazione proprietario e ottimizzato per essa, analizzando la sua espressivitá.
+\item{\textbf{Linguaggio di interrogazione proprietario:}} verificare se la tecnologia in analisi mette a disposizione un linguaggio di interrogazione proprietario e ottimizzato per essa, analizzando la sua espressività.
 \item{\textbf{Supporto Tinkerpop\footnote{Tinkerpop: url= \link{http://tinkerpop.apache.org/}}:}} verificare se la tecnologia mette a disposizione il supporto ad Apache Tinkerpop, sfruttando quindi un interfaccia comune, permettendo poi il passaggio ad un altra tecnologia che lo supporti a costi nulli.
-\item{\textbf{Clustering\glsfirstoccur:}} verificare se la tecnologia mette a disposizione un sistema di \textit{clustering} pronto all'uso, il tipo e se ha la possibilitá di eseguire \textit{query} distribuite. Infine verificare se questa é disponibile nelle versione gratuita.
+\item{\textbf{\gls{Clustering}:}} verificare se la tecnologia mette a disposizione un sistema di \textit{clustering} pronto all'uso, il tipo e se ha la possibilitá di eseguire \textit{query} distribuite. Infine verificare se questa é disponibile nelle versione gratuita.
 \item{\textbf{Security:}} verificare che sistemi di sicurezza dei dati la tecnologia mette a disposizione e se esiste la possibilità di dividere il \textit{database} in zone facendole diventare accessibili solo a determinati utenti.\\
 
 \end{itemize}
@@ -47,20 +47,20 @@ La casa produttrice dichiara come caso d'uso possibile il rilevamento di frode b
 Questa tecnologia viene rilasciata solamente in versione con licenza commerciale ed accademica con il limite ad un milione di nodi.
 
 \subsubsection{Neo4j}
-Neo4j\footnote{Neo4j: url= \link{https://neo4j.com/}} è la base di dati a grafo nativa più diffusa al mondo, e, anche grazie a questo, ha una \textit{community} molto ampia. È un \textit{software} sviluppato in Java da Neo Technology nel 2007. È adottato da multinazionali come Microsoft, AirBnb, IBM, Ebay.\\
-Neo4j ha un linguaggio di interrogazione proprietario, chimato Chyper, molto espressivo e ottimizzato. Supporta le tecnologie di rilievo per l'azienda, compreso Spring Data\footnote{Spring data: url= \link{http://projects.spring.io/spring-data/}}. Neo4j viene rilasciato in versione \textit{community} gratuita con nessuna limitazione di ampiezza della base di dati senza la possibilità di eseguirlo in modo distibuito, al contrario di quella \textit{Enterprise} a pagamento.
+Neo4j\footnote{Neo4j: url= \link{https://neo4j.com/}} è la base di dati a \gls{grafo nativa} più diffusa al mondo, e, anche grazie a questo, ha una \textit{community} molto ampia. È un \textit{software} sviluppato in Java da Neo Technology nel 2007. È adottato da multinazionali come Microsoft, AirBnb, IBM, Ebay.\\
+Neo4j ha un linguaggio di interrogazione proprietario, chiamato Chyper, molto espressivo e ottimizzato. Supporta le tecnologie di rilievo per l'azienda, compreso Spring Data\footnote{Spring data: url= \link{http://projects.spring.io/spring-data/}}. Neo4j viene rilasciato in versione \textit{community} gratuita con nessuna limitazione di ampiezza della base di dati senza la possibilità di eseguirlo in modo distribuito, al contrario di quella \textit{Enterprise} a pagamento.
 
 \subsubsection{ArangoDB}
-ArangoDB\footnote{ArangoDB: url= \link{https://www.arangodb.com/}} è un \textit{database} multi modello sviluppato in C++ nato nel 2011. È un \textit{database} principalmente documentale ma con collezzioni che, raccogliendo la chiave di entrata e di uscita, simulano il funzionamento a grafo. Questo permette di organizzare i dati utilizzando il modello a grafo, documentale e chiave/valore.\\
+ArangoDB\footnote{ArangoDB: url= \link{https://www.arangodb.com/}} è un \textit{database} multi modello sviluppato in C++ nato nel 2011. È un \textit{database} principalmente documentale ma con collezioni che, raccogliendo la chiave di entrata e di uscita, simulano il funzionamento a grafo. Questo permette di organizzare i dati utilizzando il modello a grafo, documentale e chiave/valore.\\
 Gli sviluppatori promettono la flessibilità data dalle base di dati multi modello e velocità paragonabile ai \textit{database} a grafo nativi.\\
-ArangoDB ha un linguaggio di interrogazione proprietario simile ad SQL\glsfirstoccur e viene rilasciato in versione gratuita con limitazioni solo nell'ambito della sicurezza.
+ArangoDB ha un linguaggio di interrogazione proprietario simile ad \gls{SQL} e viene rilasciato in versione gratuita con limitazioni solo nell'ambito della sicurezza.
 \subsubsection{AllegroGraph}
-AllegroGraph\footnote{AllegroGraph: url= \link{https://franz.com/agraph/allegrograph/}} è un software per \textit{database} a grafo nativo sviluppato insieme agli \textit{standard} W3C\footnote{W3C: url= \link{https://www.w3.org/}} per il \textit{web} semantico\glsfirstoccur  nel 2004. Supporta tecnologie di interesse all'azienda ma non ha un linguaggio di interrogazione proprietario. Viene rilasciato solo con licenza commerciale a pagamento.
+AllegroGraph\footnote{AllegroGraph: url= \link{https://franz.com/agraph/allegrograph/}} è un software per \textit{database} a grafo nativo sviluppato insieme agli \textit{standard} W3C\footnote{W3C: url= \link{https://www.w3.org/}} per il \textit{web} \gls{semantico}  nel 2004. Supporta tecnologie di interesse all'azienda ma non ha un linguaggio di interrogazione proprietario. Viene rilasciato solo con licenza commerciale a pagamento.
 \subsubsection{OrientDB}
 OrientDB\footnote{OrientDB: url= \link{http://orientdb.com/orientdb/}} è un \textit{software} per base di dati multi modello sviluppato in Java da uno sviluppatore italiano chiamato Luca Garulli\footnote{Luca Garulli: url= \link{https://www.linkedin.com/in/garulli}}. È un \textit{database} principalmente documentale ma, salvando attraverso tabelle gli indici fisici di inizio e fine dell'arco, riesce ad implementare anche il modello a grafo nativo. \\
-Per scelta puramente commerciale hanno deciso di integrare un linguaggio di interrogazione molto simile a SQL, limitando di molto l'espressività nelle ricerche nel modello a grafo. Viene rilasciato in versione sia a pagamento che \textit{community} con nessuna limitazione di rilievo.
+Per scelta puramente commerciale hanno deciso di integrare un linguaggio di interrogazione molto simile a \gls{SQL}, limitando di molto l'espressività nelle ricerche nel modello a grafo. Viene rilasciato in versione sia a pagamento che \textit{community} con nessuna limitazione di rilievo.
 \subsubsection{Titan}
-Titan\footnote{Titan: url= \link{http://titan.thinkaurelius.com/}} è un software in grado di sfruttare \textit{storage backend} come Apache Cassandra\footnote{Apache Cassandra: url= \link{http://cassandra.apache.org/}} per l'immagazzinamento dei dati. È capace di astrarre i dati nello \textit{storage} ed organizzarli come se fossero a grafo, di conseguenza non utilizza una base di dati a grafo nativa.
+Titan\footnote{Titan: url= \link{http://titan.thinkaurelius.com/}} è un software in grado di sfruttare \textit{storage backend} come Apache Cassandra\footnote{Apache Cassandra: url= \link{http://cassandra.apache.org/}} per l'immagazzinamento dei dati. È capace di astrarre i dati nello \textit{storage} ed organizzarli come se fossero a grafo, di conseguenza non utilizza una base di dati a \gls{grafo nativa}.
 Questa possibilità di scelta dello \textit{storage backend} lo rende molto valido se l'azienda utilizzasse una tecnologia che lo supporta, questo porterebbe ad un costo di passaggio tecnologico più contenuto.\\
 Titan non offre un linguaggio di interrogazione proprietario ma supporta pienamento Tinkerpop.  Viene rilasciato in licenza Apache 2\footnote{Apache 2: url= \link{https://www.apache.org/licenses/LICENSE-2.0}}.
 \subsection{Scelta tecnologica}
@@ -78,7 +78,7 @@ Infine abbiamo scelto anche \textbf{OrientDB} essendo il \textit{database} multi
 
 \section{Sviluppo del prototipo}
 \subsection{Analisi dei requisiti}
-La prima attività svolta, dopo l'analisi delle tecnologie, è stata l'analisi dei requisiti. Questo perchè l'organizzazione della base di dati deve essere strutturata in modo tale da semplificare le operazione che il prototipo andrà ad eseguire.\\
+La prima attività svolta, dopo l'analisi delle tecnologie, è stata l'analisi dei requisiti. Questo perché l'organizzazione della base di dati deve essere strutturata in modo tale da semplificare le operazione che il prototipo andrà ad eseguire.\\
 Ho tracciato tutti i requisiti utilizzando il seguente schema.\\
 \begin{itemize}
 	\item \textbf{Importanza:} può assumere questi valori:
@@ -94,7 +94,7 @@ Ho tracciato tutti i requisiti utilizzando il seguente schema.\\
   		\end{itemize}
   	\item \textbf{Identificativo:} indica il codice identificativo del requisito, è un intero positivo crescente.
 \end{itemize}
-Ho definito tutti i requisiti tramite \textit{brainstorming} con il mio tutor azeindale e definiti nella seguente tabella.
+Ho definito tutti i requisiti tramite \textit{brainstorming} con il mio tutor aziendale e definiti nella seguente tabella.
 \label{tab:rec}
 \begin{table}[!ht]
 \begin{tabularx}{\textwidth}{Xll}
@@ -146,10 +146,10 @@ Tutti i requisiti descritti sono stati poi approvati dal mio tutor aziendale.
 \subsection{Tecnologie utilizzate}
 Tutte le tecnologie che ho utilizzato sono state accordate preventivamente con il tutor aziendale.
 \subsubsection{IntellJ Idea Ultimate}
-Ho utilizzato IntellJ Idea, con licenza accademica, come IDE\glsfirstoccur in primo luogo per la conoscenza maturata dai progetti passati eseguiti in ambito universitario. Inoltre integra il supporto a JUnit\footnote{JUnit: url= \link{http://junit.org/junit5/}} per facilitare i \textit{test}, a Maven per eseguire la \textit{Build} direttamente dall'IDE, \textit{debugger} avanzato. In aggiunta offre anche molte funzionalità utili come la possibilità di eseguire \textit{refractoring}\glsfirstoccur con la certezza che il comportamente resti invariato.
+Ho utilizzato IntellJ Idea, con licenza accademica, come \gls{IDE} in primo luogo per la conoscenza maturata dai progetti passati eseguiti in ambito universitario. Inoltre integra il supporto a JUnit\footnote{JUnit: url= \link{http://junit.org/junit5/}} per facilitare i \textit{test}, a Maven per eseguire la \textit{Build} direttamente dall'\gls{IDE}, \textit{debugger} avanzato. In aggiunta offre anche molte funzionalità utili come la possibilità di eseguire \textit{\gls{refractoring}} con la certezza che il comportamente resti invariato.
 
 \subsubsection{Java 8}
-Ho utilizzato Java come linguaggio di programmazione perchè, in primo luogo, era un vingolo dettato dal piano di lavoro descritto nella \hyperlink{sec:pianodl}{sezione 2.1.3}. Inoltre questo linguaggio ha una sintassi molto regolare e semplice. Infine essendo uno dei linguaggi più diffusi al mondo ha una vasta quantità di librerie supportate.
+Ho utilizzato Java come linguaggio di programmazione perché, in primo luogo, era un vincolo dettato dal piano di lavoro descritto nella \hyperlink{sec:pianodl}{sezione 2.1.3}. Inoltre questo linguaggio ha una sintassi molto regolare e semplice. Infine essendo uno dei linguaggi più diffusi al mondo ha una vasta quantità di librerie supportate.
 \subsubsection{Maven}
 Maven\footnote{Maven: url= \link{https://maven.apache.org/}} è uno strumento per la gestione di progetti \textit{software} sviluppato da Apache Software Foundation\footnote{https://www.apache.org/}. Permette di dichiarare tutte le dipendenze e le varie versione delle librerie in un unico file in formato XML\footnote{XML: url\link{https://it.wikipedia.org/wiki/XML}}, separando le \textit{directory} di progetto dalle librerie utilizzate. Maven scaricherà automaticamente le dipendenze e le nasconderà in cartelle separate dal progetto.\\
 La \textit{build standard} automatica consiste in diversi passi ordinati e dipendenti l'uno dall'altro tra cui la compilazione, l'esecuzione dei \textit{test}, la verifica. Questo ciclo di \textit{build standard} sarà completato solamente se tutte la varie fasi non genereranno errori.
@@ -162,9 +162,9 @@ La \textit{build standard} automatica consiste in diversi passi ordinati e dipen
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.45]{immagini/spring.png}
-	\caption{\textit{Architettura del framework Spring} \link{https://goo.gl/2hvVYM}}
+	\caption{\textit{Architettura del \gls{framework} Spring} \link{https://goo.gl/2hvVYM}}
 \end{figure}
-Spring Boot\footnote{Spring Boot: url= \link{https://projects.spring.io/spring-boot/}} è un framework\glsfirstoccur per semplificare la creazione di progetti Java \textit{stand-alone}. Con questo framework è possibile definire l'architettura interna di un progetto, ad esempio un \textit{web server}, con semplici annotazioni Java.\\
+Spring Boot\footnote{Spring Boot: url= \link{https://projects.spring.io/spring-boot/}} è un \gls{framework} per semplificare la creazione di progetti Java \textit{stand-alone}. Con questo \gls{framework} è possibile definire l'architettura interna di un progetto, ad esempio un \textit{web server}, con semplici annotazioni Java.\\
 Per la creazione di un progetto Spring Boot basta recarsi in \link{https://start.spring.io/}, configurare il nome del progetto e scaricare il sorgente.\\
 Spring è una valida alternativa a Enterprise JavaBeans\footnote{Enterprise JavaBeans: url= \link{https://it.wikipedia.org/wiki/Enterprise\textunderscore JavaBeans}}.
 
@@ -180,7 +180,7 @@ Utilizzando questa libreria è possibile definire delle \textit{query} solo graz
 
 \subsubsection{Tinkerpop}
 
-Ho utilizzato Tinkerpop\footnote{Tinkerpop: url= \link{http://tinkerpop.apache.org/}} per interfacciarmi con OrientDB in modo semplice, diminuendo le operazioni eseguite esclusivamente tramite \textit{query}. Questa libreria ha il vantaggio di permettere un passaggio ad un altra tecnologia che lo supporta senza modificare il codice. E stata sviluppata da Apache Software Foundation con lo scopo di uniformare il codice volto a interfaciarsi con la maggior parte dei \textit{database} nel mercato.
+Ho utilizzato Tinkerpop\footnote{Tinkerpop: url= \link{http://tinkerpop.apache.org/}} per interfacciarmi con OrientDB in modo semplice, diminuendo le operazioni eseguite esclusivamente tramite \textit{query}. Questa libreria ha il vantaggio di permettere un passaggio ad un altra tecnologia che lo supporta senza modificare il codice. E stata sviluppata da Apache Software Foundation con lo scopo di uniformare il codice volto a interfacciarsi con la maggior parte dei \textit{database} nel mercato.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.65]{immagini/tinkerpop.jpg}
@@ -188,7 +188,7 @@ Ho utilizzato Tinkerpop\footnote{Tinkerpop: url= \link{http://tinkerpop.apache.o
 \end{figure}
 
 \subsubsection{JUnit e Mockito}
-JUnit\footnote{JUnit: url= \link{http://junit.org/junit5/}} è un framework che permette e semplifica la creazione di test in Java. Invece Mockito\footnote{Mockito: url= \link{http://site.mockito.org/}} permette di sovrascrivere il coportamente di un particolare metodo impostandogli i valori di entrata e di uscita. Questo è utile quando si sviluppano i \textit{test} di unità e si utilizzano delle particolari classi non sviluppate o semplicemente non coperte da \textit{test}.
+JUnit\footnote{JUnit: url= \link{http://junit.org/junit5/}} è un \gls{framework} che permette e semplifica la creazione di test in Java. Invece Mockito\footnote{Mockito: url= \link{http://site.mockito.org/}} permette di sovrascrivere il comportamente di un particolare metodo impostandogli i valori di entrata e di uscita. Questo è utile quando si sviluppano i \textit{test} di unità e si utilizzano delle particolari classi non sviluppate o semplicemente non coperte da \textit{test}.
 \newpage
 \begin{figure}[h!]
 	\centering
@@ -227,7 +227,7 @@ A causa dei problemi legati alle politiche della protezione dei dati sensibili, 
 	\includegraphics[scale=0.4]{immagini/packages.png}
 	\caption{\textit{Diagramma dei package del prototipo}}
 \end{figure}
-Ho deciso di dividere il prototipo in più progetti sotto l'unico aggregato Maven\glsfirstoccur\ chiamato \textit{xtn\textunderscore research\textunderscore graphdbs}. Questa tecnica l'ho utilizzata per gestire tutte le versioni delle dipendenze in un unico file di configurazione, e, sopratutto, per avere la comodità di eseguire la \textit{build} di tutti i progetti in un unico comando, lasciando a Maven l'onere di risolvere tutte le dipendenze.\\
+Ho deciso di dividere il prototipo in più progetti sotto l'unico \gls{aggregato Maven} chiamato \textit{xtn\textunderscore research\textunderscore graphdbs}. Questa tecnica l'ho utilizzata per gestire tutte le versioni delle dipendenze in un unico file di configurazione, e, sopratutto, per avere la comodità di eseguire la \textit{build} di tutti i progetti in un unico comando, lasciando a Maven l'onere di risolvere tutte le dipendenze.\\
 
 
 \subsubsection{basegraphdb}
@@ -245,7 +245,7 @@ Ho deciso di dividere il prototipo in più progetti sotto l'unico aggregato Mave
 \textit{Graphdb-insert} inserisce in modo del tutto causale un certo numero, definito dall'utente, di \textit{EntityId, AccountId, Transaction} utilizzando l'interfaccia comune \textit{ReputationController}.\\
 \textbf{Questo progetto deve essere usato solo per inserire un modesto numero di nodi ed archi} visto che l'aggiunta di ogni \textit{record} ci impiega 500 millisecondi. In caso contrario è consigliato generarsi i CSV delle entità utilizzando il progetto \textit{graphdb-csv} e successivamente importarli nel \textit{database} scelto.
 \subsubsection{graphdb-poc}
-\textit{Graphdb-poc} è il progetto che si occupa solamente di istanziare le varie implementazioni di \textit{ReputationController} ed eseguire i vari metodi d'interfaccia tracciando, e stampando a video, il nome del metodo, il risultato ottenuto ed il tempo impiegato.\\
+\textit{Graphdb-poc} è il progetto che si occupa solamente di instanziare le varie implementazioni di \textit{ReputationController} ed eseguire i vari metodi d'interfaccia tracciando, e stampando a video, il nome del metodo, il risultato ottenuto ed il tempo impiegato.\\
 Questo progetto non ha dipendenze verso le varie implementazioni ma solamente verso l'interfaccia. Questo è possibile delegando a Spring l'onere di iniettare tutte le classi che implementano l'interfaccia comune. In questo modo si ha un disaccoppiamento tra questo progetto e le varie implementazioni e, sopratutto, se in futuro ci fosse il bisogno di aggiungerne un altra non sarebbe necessario modificare il codice di questo progetto.
 \begin{figure}[!ht]
 	\centering
@@ -255,7 +255,7 @@ Questo progetto non ha dipendenze verso le varie implementazioni ma solamente ve
 \newpage
 \section{Utilizzo della libreria}
 \subsection{Calcolo della reputazione}
-Sfruttanto la \textit{dependency injection} \footnote{dependency injection: url= \link{https://en.wikipedia.org/wiki/Dependency\textunderscore injection}} di Spring, per utilizzare la libreria del calcolo della reputazione è sufficiente creare una classe simile alla seguente.
+Sfruttando la \textit{dependency injection} \footnote{dependency injection: url= \link{https://en.wikipedia.org/wiki/Dependency\textunderscore injection}} di Spring, per utilizzare la libreria del calcolo della reputazione è sufficiente creare una classe simile alla seguente.
 \begin{lstlisting}
 package it.ldario;
 
@@ -456,12 +456,12 @@ Invece la tabella dei requisiti opzionali è la seguente:
  \captionsetup{singlelinecheck = false, format= hang, justification=raggedright}
 \caption{Tabella soddisfacimento requisiti opzionali}
 \end{table}%
-Il requistito segnato con l'identificativo 2V5, cioè l'estensione del \textit{dataset}, non è stato soddisfatto per mancanza di tempo. Ho preferito consumare il tempo rimanente per eseguire una buona presentazione interna all'azienda. Ho soddisfatto il 100\% dei requisiti obbligatori e l'80\% di quelli opzionali.
+Il requisito segnato con l'identificativo 2V5, cioè l'estensione del \textit{dataset}, non è stato soddisfatto per mancanza di tempo. Ho preferito consumare il tempo rimanente per eseguire una buona presentazione interna all'azienda. Ho soddisfatto il 100\% dei requisiti obbligatori e l'80\% di quelli opzionali.
 \section{Conclusioni}
-\subsection{Casi di una base di dati a grafo}
-Durante la mia analisi mi sono reso conto che una base di dati a grafo non può essere utilizzata per immagazzinare qualunque tipo di dato, anzi gli usi sono molto ristretti. Un \textit{database} di questa tipologia è rivolto a chi deve salvare un altissimo numero di dati legato ad una cerchia di entità, di numero minore rispetto a questi. Solitamente questo altissimo numero di dati rappresentano gli archi e le entità rappresentano i nodi.\\
-Questo succede perchè le potenzialità delle base di dati di questo tipo emergono quando si ha un alto numero di archi collegati ad un modesto numero di nodi. Se avesse l'esatto opposto, quindi molti vertici e pochi archi, le operazioni disponibili sull'attraversamento tra i nodi si ridurrebbero di molto.
-Inoltre una base di dati di questo tipo non è ottimizzata per operazioni che coinvolgono tutto il \textit{database}.
+\subsection{Casi d'uso di una base di dati a grafo}
+Durante la mia analisi mi sono reso conto di come una base di dati a grafo non possa essere utilizzata per immagazzinare qualunque tipo di dato, anzi gli usi sono molto ristretti. Un \textit{database} di questa tipologia è rivolto a chi deve salvare un altissimo numero di dati legato ad una cerchia di entità, di numero minore rispetto a questi. Solitamente questo altissimo numero di dati rappresentano gli archi e le entità rappresentano i nodi.\\
+Questo succede perché le potenzialità delle base di dati di questo tipo emergono quando si ha un alto numero di archi collegati ad un modesto numero di nodi. Se avesse l'esatto opposto, quindi molti vertici e pochi archi, le operazioni disponibili sull'attraversamento tra i nodi si ridurrebbero di molto.
+Inoltre una base di dati di questo tipo non è adatta per operazioni che coinvolgono tutto il \textit{database}.\footnote{\textit{The good and the bad about graph databases} : url= \link{https://goo.gl/bRMwnv}}
 \label{fig:social}
 \begin{figure}[!ht]
 	\centering
@@ -477,12 +477,12 @@ Durante la mia analisi ho riscontrato i seguenti vantaggi e svantaggi nell'utili
 \begin{itemize}
 \item{\textbf{Velocità:}} se il caso d'uso è adatto e si organizza i dati in modo intelligente si riesce a ridurre la maggior parte delle \textit{query} ad operazioni banali, sfruttando la natura dei grafi. Nell'ambito anti frode molte operazioni si riducono al "\textit{conta quante volte la persona \textbf{A} ha fatto una determinata cosa, chiamata \textbf{Z}, verso un entità \textbf{B}}" dove A e B sono nodi e Z è l'arco che li collega.
 \item{\textbf{Espressività della ricerca:}} se il caso d'uso che si va a modellare è adatto alla natura dei grafi, l'espressività della ricerca è tale che le \textit{query} risultano, molte volte, banali anche dal punto di vista della scrittura.
-\item{\textbf{Tutto è collegato:}} data dalla natura dei grafi, si ha un enorme possibilità di creare ricerche che esplorano in profondità il grafo date determinate condizioni, ad esempio la possibilità di attraversare e memorizzare solo i nodi che sono collegati da una certà entità solamente tramite relazioni di appartenenza. Nell'ambito anti frode succede molto spesso di eseguire delle ricerche che sfruttano questa caratteristica.
+\item{\textbf{Tutto è collegato:}} data dalla natura dei grafi, si ha un enorme possibilità di creare ricerche che esplorano in profondità il grafo date determinate condizioni, ad esempio la possibilità di attraversare e memorizzare solo i nodi che sono collegati da una determinata entità solamente tramite relazioni di appartenenza. Nell'ambito anti frode succede molto spesso di eseguire delle ricerche che sfruttano questa caratteristica.
 \end{itemize}
 \subsubsection{Svantaggi}
 \begin{itemize}
-\item{\textbf{Casi d'uso limitati:}} solo pochi \textit{use case} sono adatti ad essere modellati come un grafo, quindi è molto rischioso modellare totalmente la propria base di dati utilizzando questa tecnologia. Questo perchè in futuro potrebbe esserci la necessità di aggiungere dati al modello non adatti a questo tipo di \textit{database}. Questo limita il normale ciclo di vita di un \textit{software}.
-\item{\textbf{Tecnologia di nicchia:}} essendo una tecnologia di nicchia la possibilità di informarsi, tramite community, è ridotta rispetto ad altre tecnologie piu diffuse, come possono essere i \textit{database} relazionali.
+\item{\textbf{Casi d'uso limitati:}} solo pochi \textit{use case} sono adatti ad essere modellati come un grafo, quindi è molto rischioso modellare totalmente la propria base di dati utilizzando questa tecnologia. Questo perché in futuro potrebbe esserci la necessità di aggiungere dati al modello non adatti a questo tipo di \textit{database}. Questo limita il normale ciclo di vita di un \textit{software}.
+\item{\textbf{Tecnologia di nicchia:}} essendo una tecnologia di nicchia la possibilità di informarsi, tramite community, è ridotta rispetto ad altre tecnologie più diffuse, come possono essere i \textit{database} relazionali.
 \end{itemize}
 \newpage
 \begin{figure}[!ht]
@@ -511,7 +511,7 @@ Durante la mia analisi ho riscontrato i seguenti vantaggi e svantaggi nell'utili
 \subsubsection{CONTRO}
 \begin{itemize}
 \item{\textbf{Spring Data OrientDB:}} non documentato ed acerbo. Questo mi ha portato ad usare Tinkerpop\footnote{Tinkerpop: url= \link{http://tinkerpop.apache.org/}} portando allo sviluppo di un software meno organizzato rispetto a quello di Neo4j.
-\item{\textbf{Espressività:}} l'azienda produttrice di OrientDB ha fatto la scelta, per me puramente commerciale, di utilizzare un linguaggio simile ad SQL\footnote{SQL: url= \link{https://it.wikipedia.org/wiki/Structured\textunderscore Query\textunderscore Language}} per l'interrogazione della base di dati. Questo diminuisce sostanzialmente l'espressività delle \textit{query}, rendendo complicato lo sviluppo di operazioni con svariate transazioni su archi.
+\item{\textbf{Espressività:}} l'azienda produttrice di OrientDB ha fatto la scelta, per me puramente commerciale, di utilizzare un linguaggio simile ad \gls{SQL} per l'interrogazione della base di dati. Questo diminuisce sostanzialmente l'espressività delle \textit{query}, rendendo complicato lo sviluppo di operazioni con svariate transazioni su archi.
 \item{\textbf{Spazio su disco:}} per rendere un database multi modello nativo gli sviluppatori di OrientDB hanno dovuto replicare molti dati, aumentando di circa 0.4 volte lo spazio necessario per immagazzinare i dati (prova eseguita con 30 milioni di record tra nodi ed archi).
 \end{itemize}
 
@@ -520,7 +520,7 @@ Nella parte finale del progetto di stage mi sono posto le seguenti domande per c
 \\
 \textbf{Vale la pena adottare la base di dati a grafo in azienda?}\\
 \textit{Secondo la mia analisi si, però solamente per alcuni casi d'uso.}\\
-Adottare un \textit{database} a grafo, e modellare i dati di conseguenza, per determinati casi d'uso renderebbero possibili determinate ricerche che prima potevano risultare troppo dispendiose o, addirittura, impossibili.\\
+Adottare un \textit{database} a grafo, e modellare i dati di conseguenza, per determinati casi d'uso renderebbero possibili determinate ricerche che prima potevano risultare troppo onerose o, addirittura, impossibili.\\
 Il tratto caratteristico dei \textit{database} a grafo è la possibilità di attraversare, a costo costante, le varie entità ricostruendo le azioni compiute da una particolare entità indipendentemente dalla grandezza della base di dati. Questo aprirebbe, per l'azienda, nuove possibili ricerche come la costruzione dell'albero delle transazioni, dato un utente, per estrapolare determinate informazioni.\\
 \\
 \textbf{Risolve il problema iniziale del calcolo della reputazione descritto nella \hyperlink{sec:prob}{sezione 2.1.1}?}\\

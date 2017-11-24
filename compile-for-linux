@@ -38,8 +38,8 @@ echo ---------------------------------
 echo - Pulisco e poi apro il file... -
 echo ---------------------------------
 
-rm $DIR/*.acn $DIR/*.aux $DIR/*.bbl $DIR/*.bcf $DIR/*.glo
-rm $DIR/*.ist $DIR/*.lof $DIR/*.lot $DIR/*.run.xml $DIR/*.toc
+rm *.acn *.aux *.bbl *.bcf *.glo
+rm *.ist *.lof *.lot *.run.xml *.toc
 # Per mantenere i log commentare la linea seguente
 rm $DIR/*.blg  $DIR/*.log
 

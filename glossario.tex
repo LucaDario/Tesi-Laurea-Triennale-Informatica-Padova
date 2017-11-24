@@ -2,39 +2,84 @@
 %**************************************************************
 % Acronimi
 %**************************************************************
-\renewcommand{\acronymname}{Acronimi e abbreviazioni}
-
-\newacronym[description={\glslink{apig}{Application Program Interface}}]
-    {api}{API}{Application Program Interface}
-
-\newacronym[description={\glslink{umlg}{Unified Modeling Language}}]
-    {uml}{UML}{Unified Modeling Language}
-
 %**************************************************************
 % Glossario
 %**************************************************************
-%\renewcommand{\glossaryname}{Glossario}
+\renewcommand{\glossaryname}{Glossario}
 
-\newglossaryentry{apig}
+\newglossaryentry{framework}
 {
-    name=\glslink{api}{API},
-    text=Application Program Interface,
-    sort=api,
-    description={in informatica con il termine \emph{Application Programming Interface API} (ing. interfaccia di programmazione di un'applicazione) si indica ogni insieme di procedure disponibili al programmatore, di solito raggruppate a formare un set di strumenti specifici per l'espletamento di un determinato compito all'interno di un certo programma. La finalità è ottenere un'astrazione, di solito tra l'hardware e il programmatore o tra software a basso e quello ad alto livello semplificando così il lavoro di programmazione}
+    name=Framework,
+    text=framework,
+    description={\textit{Framework} è un insieme di classi astratte e relazioni fra esse, volto a creare un infrastruttura generale. Poi sarà compito al programmatore aggiungere il contenuto vero e proprio dell'applicazione}
+}
+\newglossaryentry{B2B}
+{
+    name=B2B,
+    text=B2B,
+    description={Le imprese \textit{B2B} vendono i loro prodotti solo ed esclusivamente ad altre aziende.}
+}
+\newglossaryentry{aggregato Maven}
+{
+    name=Aggregato Maven,
+    text=aggregato Maven,
+    description={è un progetto Maven che ha il solo scopo di gestire tutte le dipendenze dei progetti sottostanti, in termini di gerarchia, in modo uniforme. Questi tipo di progetti devono avere solamente un file XML con tutte le dipendenze e le varie versioni}
+}
+\newglossaryentry{grafo nativa}
+{
+    name=Grafo nativo,
+    text=grafo nativa,
+    description={\textit{Grafo nativo} è una tipologia di base di dati a grafo che implementa i collegamenti tra i nodi attraverso indici di memoria fisici. L'attraversamento fra i nodi ha costo costante}
+}
+\newglossaryentry{non nativa}
+{
+    name=Grafo non nativo,
+    text=non nativa,
+    description={\textit{Grafo non nativo} è una tipologia di base di dati a grafo che implementa i collegamenti tra i nodi attraverso normali indici. L'attraversamento fra i nodi non ha costo costante}
+}
+\newglossaryentry{modelli}
+{
+    name=Modelli di dati,
+    text=modelli,
+    description={Un \textit{modello di dati} è un insieme di concetti utilizzati per organizzare una base di dati. Un modello di dati può essere relazionale, reticolare, ad oggetti}
+}
+\newglossaryentry{Clustering}
+{
+    name=Clustering,
+    text=Clustering,
+    description={Il \textit{Clustering} è la divisione dell'applicazione su diverse unità di elaborazione. Questo porta a diminuire la latenza ed aumentare la velocità di esecuzione}
+}
+\newglossaryentry{SQL}
+{
+    name=SQL,
+    text=SQL,
+    description={\textit{SQL} è un linguaggio per basi di dati a modello relazionale. Essendo un linguaggio dichiarativo non richiede la stesura di sequenze di operazioni, piuttosto di specificare le proprietà logiche delle informazioni ricercate}
+}
+\newglossaryentry{semantico}
+{
+    name=Web semantico,
+    text=semantico,
+    description={Per \textit{Web semantico} si intende la trasformazione del World Wide Web in un ambiente dove i documenti pubblicati sono associati ad informazioni e dati che ne specificano il contesto, migliorando notevolmente le ricerche.\footnote{Web semantico: url= \link{https://it.wikipedia.org/wiki/Web\textunderscore semantico}}}
+}
+\newglossaryentry{IDE}
+{
+    name=IDE,
+    text=IDE,
+    description={Un \textit{IDE} è un \textit{software} che aiuta i programmatori nello sviluppo del codice sorgente. Questo ha molte funzionalità tra cui la segnalazione degli errori di sintassi, autocompletamento, gestione delle dipendenze}
+}
+\newglossaryentry{refractoring}
+{
+    name=Refractoring,
+    text=refractoring,
+    description={Un \textit{refractoring} è una modifica al codice sorgente mantenendo, però, inalterato il comportamento iniziale}
 }
 
-\newglossaryentry{umlg}
+\newglossaryentry{JOIN}
 {
-    name=\glslink{uml}{UML},
-    text=UML,
-    sort=uml,
-    description={in ingegneria del software \emph{UML, Unified Modeling Language} (ing. linguaggio di modellazione unificato) è un linguaggio di modellazione e specifica basato sul paradigma object-oriented. L'\emph{UML} svolge un'importantissima funzione di ``lingua franca'' nella comunità della progettazione e programmazione a oggetti. Gran parte della letteratura di settore usa tale linguaggio per descrivere soluzioni analitiche e progettuali in modo sintetico e comprensibile a un vasto pubblico}
+    name=JOIN,
+    text=JOIN,
+    description={Una \textit{JOIN} è una operazione che combina le tuple di due o più relazioni di un \textit{database}. La complessità di questa operazione dipende dalla grandezza della base di dati coinvolta}
 }
 
-\newglossaryentry{docker}
-{
-    name=\glslink{docker}{docker},
-    text=UML,
-    sort=uml,
-    description={in ingegneria del software \emph{UML, Unified Modeling Language} (ing. linguaggio di modellazione unificato) è un linguaggio di modellazione e specifica basato sul paradigma object-oriented. L'\emph{UML} svolge un'importantissima funzione di ``lingua franca'' nella comunità della progettazione e programmazione a oggetti. Gran parte della letteratura di settore usa tale linguaggio per descrivere soluzioni analitiche e progettuali in modo sintetico e comprensibile a un vasto pubblico}
-}
+
+
