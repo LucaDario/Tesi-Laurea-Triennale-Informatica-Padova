@@ -146,12 +146,12 @@ Tutti i requisiti descritti sono stati poi approvati dal mio tutor aziendale.
 \subsection{Tecnologie utilizzate}
 Tutte le tecnologie che ho utilizzato sono state accordate preventivamente con il tutor aziendale.
 \subsubsection{IntellJ Idea Ultimate}
-Ho utilizzato IntellJ Idea, con licenza accademica, come \gls{IDE} in primo luogo per la conoscenza maturata dai progetti passati eseguiti in ambito universitario. Inoltre integra il supporto a JUnit\footnote{JUnit: url= \link{http://junit.org/junit5/}} per facilitare i \textit{test}, a Maven per eseguire la \textit{Build} direttamente dall'\gls{IDE}, \textit{debugger} avanzato. In aggiunta offre anche molte funzionalità utili come la possibilità di eseguire \textit{\gls{refractoring}} con la certezza che il comportamente resti invariato.
+Ho utilizzato IntellJ Idea, con licenza accademica, come \gls{IDE} in primo luogo per la conoscenza maturata dai progetti passati eseguiti in ambito universitario. Inoltre integra il supporto a JUnit\footnote{JUnit: url= \link{http://junit.org/junit5/}} per facilitare i \textit{test}, a Maven per eseguire la \textit{Build} direttamente dall'\gls{IDE}, \textit{debugger} avanzato. In aggiunta offre anche molte funzionalità utili come la possibilità di eseguire \textit{\gls{refractoring}} con la certezza che il comportamento resti invariato.
 
 \subsubsection{Java 8}
 Ho utilizzato Java come linguaggio di programmazione perché, in primo luogo, era un vincolo dettato dal piano di lavoro descritto nella \hyperlink{sec:pianodl}{sezione 2.1.3}. Inoltre questo linguaggio ha una sintassi molto regolare e semplice. Infine essendo uno dei linguaggi più diffusi al mondo ha una vasta quantità di librerie supportate.
 \subsubsection{Maven}
-Maven\footnote{Maven: url= \link{https://maven.apache.org/}} è uno strumento per la gestione di progetti \textit{software} sviluppato da Apache Software Foundation\footnote{https://www.apache.org/}. Permette di dichiarare tutte le dipendenze e le varie versione delle librerie in un unico file in formato XML\footnote{XML: url\link{https://it.wikipedia.org/wiki/XML}}, separando le \textit{directory} di progetto dalle librerie utilizzate. Maven scaricherà automaticamente le dipendenze e le nasconderà in cartelle separate dal progetto.\\
+Maven\footnote{Maven: url= \link{https://maven.apache.org/}} è uno strumento per la gestione di progetti \textit{software} sviluppato da Apache Software Foundation\footnote{https://www.apache.org/}. Permette di dichiarare tutte le dipendenze e le varie versioni delle librerie in un unico file in formato XML\footnote{XML: url\link{https://it.wikipedia.org/wiki/XML}}, separando le \textit{directory} di progetto dalle librerie utilizzate. Maven scaricherà automaticamente le dipendenze e le nasconderà in cartelle separate dal progetto.\\
 La \textit{build standard} automatica consiste in diversi passi ordinati e dipendenti l'uno dall'altro tra cui la compilazione, l'esecuzione dei \textit{test}, la verifica. Questo ciclo di \textit{build standard} sarà completato solamente se tutte la varie fasi non genereranno errori.
 \begin{figure}[h!]
 	\centering
@@ -180,7 +180,7 @@ Utilizzando questa libreria è possibile definire delle \textit{query} solo graz
 
 \subsubsection{Tinkerpop}
 
-Ho utilizzato Tinkerpop\footnote{Tinkerpop: url= \link{http://tinkerpop.apache.org/}} per interfacciarmi con OrientDB in modo semplice, diminuendo le operazioni eseguite esclusivamente tramite \textit{query}. Questa libreria ha il vantaggio di permettere un passaggio ad un altra tecnologia che lo supporta senza modificare il codice. E stata sviluppata da Apache Software Foundation con lo scopo di uniformare il codice volto a interfacciarsi con la maggior parte dei \textit{database} nel mercato.
+Ho utilizzato Tinkerpop\footnote{Tinkerpop: url= \link{http://tinkerpop.apache.org/}} per interfacciarmi con OrientDB in modo semplice, diminuendo le operazioni eseguite esclusivamente tramite \textit{query}. Questa libreria ha il vantaggio di permettere un passaggio ad un'altra tecnologia che lo supporta senza modificare il codice. E stata sviluppata da Apache Software Foundation con lo scopo di uniformare il codice volto a interfacciarsi con la maggior parte dei \textit{database} nel mercato.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.65]{immagini/tinkerpop.jpg}
@@ -188,7 +188,7 @@ Ho utilizzato Tinkerpop\footnote{Tinkerpop: url= \link{http://tinkerpop.apache.o
 \end{figure}
 
 \subsubsection{JUnit e Mockito}
-JUnit\footnote{JUnit: url= \link{http://junit.org/junit5/}} è un \gls{framework} che permette e semplifica la creazione di test in Java. Invece Mockito\footnote{Mockito: url= \link{http://site.mockito.org/}} permette di sovrascrivere il comportamente di un particolare metodo impostandogli i valori di entrata e di uscita. Questo è utile quando si sviluppano i \textit{test} di unità e si utilizzano delle particolari classi non sviluppate o semplicemente non coperte da \textit{test}.
+JUnit\footnote{JUnit: url= \link{http://junit.org/junit5/}} è un \gls{framework} che permette e semplifica la creazione di test in Java. Invece Mockito\footnote{Mockito: url= \link{http://site.mockito.org/}} permette di sovrascrivere il comportamento di un particolare metodo impostandogli i valori di entrata e di uscita. Questo è utile quando si sviluppano i \textit{test} di unità e si utilizzano delle particolari classi non sviluppate o semplicemente non coperte da \textit{test}.
 \newpage
 \begin{figure}[h!]
 	\centering
@@ -393,7 +393,7 @@ Tutti i \textit{test} verificano la logica interna dell'unità e percorrono la q
 La \textit{build} non andrà a buon fine se tutti i \textit{test} non avranno esito positivo, questo è gestito completamente e garantito dal processo di \textit{build standard} di Maven.
 \subsection{Validazione}
 \label{sec:valid}
-Per quanto riguarda la validazione ho consegnato un documento, in azienda, contenente tra cui una tabella con il codice del requisito descritto nella \hyperlink{tab:rec}{tabella 3.1} e se è stato soddisfatto.\\
+Per quanto riguarda la validazione ho consegnato un documento, in azienda, contenente una tabella con il codice del requisito descritto nella \hyperlink{tab:rec}{tabella 3.1} e se è stato soddisfatto.\\
 La tabella dei riquisiti obbligatori è la seguente:
 
 \label{tab:pian}
@@ -460,7 +460,7 @@ Il requisito segnato con l'identificativo 2V5, cioè l'estensione del \textit{da
 \section{Conclusioni}
 \subsection{Casi d'uso di una base di dati a grafo}
 Durante la mia analisi mi sono reso conto di come una base di dati a grafo non possa essere utilizzata per immagazzinare qualunque tipo di dato, anzi gli usi sono molto ristretti. Un \textit{database} di questa tipologia è rivolto a chi deve salvare un altissimo numero di dati legato ad una cerchia di entità, di numero minore rispetto a questi. Solitamente questo altissimo numero di dati rappresentano gli archi e le entità rappresentano i nodi.\\
-Questo succede perché le potenzialità delle base di dati di questo tipo emergono quando si ha un alto numero di archi collegati ad un modesto numero di nodi. Se avesse l'esatto opposto, quindi molti vertici e pochi archi, le operazioni disponibili sull'attraversamento tra i nodi si ridurrebbero di molto.
+Questo succede perché le potenzialità delle basi di dati di questo tipo emergono quando si ha un alto numero di archi collegati ad un modesto numero di nodi. Se avesse l'esatto opposto, quindi molti vertici e pochi archi, le operazioni disponibili sull'attraversamento tra i nodi si ridurrebbero di molto.
 Inoltre una base di dati di questo tipo non è adatta per operazioni che coinvolgono tutto il \textit{database}.\footnote{\textit{The good and the bad about graph databases} : url= \link{https://goo.gl/bRMwnv}}
 \label{fig:social}
 \begin{figure}[!ht]
@@ -471,11 +471,11 @@ Inoltre una base di dati di questo tipo non è adatta per operazioni che coinvol
 \newpage
 Un esempio classico di ottimo caso d'uso è quello descritto dalla \hyperlink{fig:social}{figura 3.8}, ossia la modellazione della base di dati di un social network. In questo caso il numero dei nodi, cioè le persone fisiche, sono in numero nettamente minore rispetto alla somma di tutti gli archi, cioè le conoscenze. Inoltre le operazioni che si eseguono coinvolgono sempre una base di dati circoscritta.\\
 
-\subsection{Vantaggi e svantaggi di una base di dato a grafo}
+\subsection{Vantaggi e svantaggi di una base di dati a grafo}
 Durante la mia analisi ho riscontrato i seguenti vantaggi e svantaggi nell'utilizzare una base di dati a grafo.
 \subsubsection{Vantaggi}
 \begin{itemize}
-\item{\textbf{Velocità:}} se il caso d'uso è adatto e si organizza i dati in modo intelligente si riesce a ridurre la maggior parte delle \textit{query} ad operazioni banali, sfruttando la natura dei grafi. Nell'ambito anti frode molte operazioni si riducono al "\textit{conta quante volte la persona \textbf{A} ha fatto una determinata cosa, chiamata \textbf{Z}, verso un entità \textbf{B}}" dove A e B sono nodi e Z è l'arco che li collega.
+\item{\textbf{Velocità:}} se il caso d'uso è adatto e si organizzano i dati in modo intelligente si riesce a ridurre la maggior parte delle \textit{query} ad operazioni banali, sfruttando la natura dei grafi. Nell'ambito anti frode molte operazioni si riducono al "\textit{conta quante volte la persona \textbf{A} ha fatto una determinata cosa, chiamata \textbf{Z}, verso un entità \textbf{B}}" dove A e B sono nodi e Z è l'arco che li collega.
 \item{\textbf{Espressività della ricerca:}} se il caso d'uso che si va a modellare è adatto alla natura dei grafi, l'espressività della ricerca è tale che le \textit{query} risultano, molte volte, banali anche dal punto di vista della scrittura.
 \item{\textbf{Tutto è collegato:}} data dalla natura dei grafi, si ha un enorme possibilità di creare ricerche che esplorano in profondità il grafo date determinate condizioni, ad esempio la possibilità di attraversare e memorizzare solo i nodi che sono collegati da una determinata entità solamente tramite relazioni di appartenenza. Nell'ambito anti frode succede molto spesso di eseguire delle ricerche che sfruttano questa caratteristica.
 \end{itemize}
@@ -501,7 +501,7 @@ Durante la mia analisi ho riscontrato i seguenti vantaggi e svantaggi nell'utili
 \end{itemize}
 \subsubsection{CONTRO}
 \begin{itemize}
-\item{\textbf{Input/Output lento:}} le librerie di Neo4j, quali Spring Data ed in generale i \textit{driver} java, risultano più lenti rispetto ad quelli di OrientDB. Questo l'ho notato calcolando la differenza tra la velocità netta delle \textit{query}, eseguendola nella \textit{dashboard}, con quella tramite i \textit{driver} e successivamente confrontandola con OrientDB.
+\item{\textbf{Input/Output lento:}} le librerie di Neo4j, quali Spring Data ed in generale i \textit{driver} java, risultano più lenti rispetto ad quelli di OrientDB. Questo l'ho notato calcolando la differenza tra la velocità netta delle \textit{query}, eseguendola nella \textit{dashboard}, e quella tramite i \textit{driver}, successivamente confrontandola con OrientDB.
 \end{itemize}
 \subsection{PRO e CONTRO OrientDB rispetto Neo4j}
 \subsubsection{PRO}
@@ -525,7 +525,7 @@ Il tratto caratteristico dei \textit{database} a grafo è la possibilità di att
 \\
 \textbf{Risolve il problema iniziale del calcolo della reputazione descritto nella \hyperlink{sec:prob}{sezione 2.1.1}?}\\
 \textit{Si, almeno utilizzando la base di dati generata casualmente.}\\
-Ho eseguito le operazioni in basi di dati con varie unità di grandezze, fino ad arrivare a 30 milioni di transazioni, e il tempo necessario per calcolare la reputazione si aggirava tra i 2 millisecondi per quella totale e i 15 millisecondi per quella relativa. Questo grazie alla possibilità di eseguire queste determinate operazioni senza caricare tutto il \textit{database} in memoria.\\
+Ho eseguito le operazioni in basi di dati con varie unità di grandezza, fino ad arrivare a 30 milioni di transazioni, e il tempo necessario per calcolare la reputazione si aggirava tra i 2 millisecondi per quella totale e i 15 millisecondi per quella relativa. Questo grazie alla possibilità di eseguire queste determinate operazioni senza caricare tutto il \textit{database} in memoria.\\
 \\
 \\
 \textbf{Quale tecnologia utilizzare tra Neo4j e OrientDB?}\\
@@ -533,9 +533,9 @@ Ho eseguito le operazioni in basi di dati con varie unità di grandezze, fino ad
 Ho preso questa decisione analizzandoli nei seguenti 3 ambiti, in ordine di importanza:
 \begin{itemize}
 \item{\textbf{Espressività:}} il linguaggio di interrogazione di Neo4j è nettamente migliore in termini di espressività. SQL è chiaramente un linguaggio non adatto per le ricerche nei grafi. Al contrario, quello di Neo4j, è sempre espressivo sia in termini di lettura di una \textit{query} sia nel crearla. Questo rende meno costoso, in termini di studio, il cambio tecnologico in azienda. 
-\item{\textbf{Supporto alle tecnologie usate in azienda:}} il passaggio a Neo4j risulterebbe meno costoso, in termini di studio individuale, grazie al supporto nativo verso Spring Data. Il supporto di OrientDB verso questa tecnologia risulta ancora acerba.
+\item{\textbf{Supporto alle tecnologie usate in azienda:}} il passaggio a Neo4j risulterebbe meno costoso, in termini di studio individuale, grazie al supporto nativo verso Spring Data. Il supporto di OrientDB verso questa tecnologia risulta ancora acerbo.
 
-\item{\textbf{Velocità:}} in termini di velocità di esecuzione di una \textit{query} Neo4j migliore, sopratutto all'aumentare delle transazioni sui nodi.
+\item{\textbf{Velocità:}} in termini di velocità di esecuzione di una \textit{query} Neo4j risulta migliore, sopratutto all'aumentare delle transazioni sui nodi.
 \end{itemize}
 
 
