@@ -14,7 +14,6 @@ clean.bat
 *.ist
 *.log
 *.lot
-*.pdf
 *.run.xml
 *.toc
 *.lof
